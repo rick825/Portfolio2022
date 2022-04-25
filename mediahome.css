@@ -132,19 +132,19 @@
 
     .leftmain .lefthtxt{
      font-size: 3.2rem; 
-     margin-top: -8rem;
+     margin-top: -10rem;
      margin-left: -4rem;
      z-index: 2;
     }
 
        .lefthpic{
-          top: 0;
-          left: 0;
+           top: -28%;
+          left: 15%;
       }
 
       .lefthpic img{
         position: absolute;
-        width: 25rem;
+        width: 33rem;
       }
 
       .lefthtxt hr{
@@ -154,7 +154,7 @@
 
      .lefthnav ul{
       margin-top: 4rem;
-      margin-left: -27.5rem;
+      margin-left: -27rem;
        z-index: 5;
      }
 
