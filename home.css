@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/*hero section*/
+
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bg{
+ background-color:  #1f1f2e;
+ /*background-color: #222;*/
+}
+
+.ham{
+  display: none;
+}
+
+.backblack{
+  display:none;
+}
+
+/*more links*/
+.morelinks img{
+width: 20px;
+    margin-left: 4rem;
+    margin-top: 0.56rem;
+}
+
+.morelinks h2{
+   display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-left: 0.3rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      letter-spacing: 2px;
+      font-size: 1.1rem;
+}
+
+.morelinks span{
+  color: #e67300;
+}
+
+.morelinks hr{
+  width: 15%;
+    height: 1px;
+   background-color:  #e67300;
+   border: none;
+   margin-left: 1.8rem;
+   margin-top: -0.5rem;
+
+}
+
+/*nav section*/
+
+ #nav{
+  position: relative;
+ }
+ .nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  padding: 2rem;
+  padding-top: 4.5rem;
+  margin-right: -17rem;
+ }
+
+ .navul{}
+  
+  .navlist .navul{
+  	display: flex;
+  	justify-content: center;
+  	list-style: none;
+  	margin-right: 10rem;
+  }
+
+  .navlist .navitem{
+  	margin-right: 3rem;
+  	font-size: 2rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: 2px;
+  }
+
+  .navlogo{
+  	cursor: pointer;
+  	margin-left: 5rem;
+  	
+  }
+
+  .navlogo h1{
+    font-size: 2.5rem;
+  	 color: #e67300;
+     text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+     font-family: 'Lobster', cursive;
+     margin-left: -3rem;
+  }
+
+  .navlogo span{
+    color: white;
+    padding-bottom: 0.5rem;
+  }
+
+  .navlogo hr{
+    width: 75%;
+    height: 3px;
+    background-color: #e67300;
+    border: none;
+  }
+
+  /*.navlogo*/
+
+  .navlist .navlink{
+  	color: white;
+  	text-decoration: none;
+     font-family: 'Festive', cursive;
+     transition: 0.2s ease;
+     opacity: 0.6;
+
+  }
+
+  .navlink:hover{
+    text-decoration: underline;
+  }
+
+  .navlink.active{
+     text-decoration: underline;
+     opacity: 1;
+    text-decoration-color: #e67300;
+  } 
+
+  /*end nav section*/
+
+
+  /*main section*/
+  #main{
+  	position: relative;
+  }
+
+  .main{
+  	width: 100%;
+  	height: 42rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+
+  .maincont{
+  	width: 100%;
+  }
+
+  /*top main*/
+   .topmain{
+   	display: flex;
+   	height: 100%;
+    overflow: hidden;
+   }
+
+   .topmaincont{
+    /*width: 50%;*/
+   	height: 100%;
+   }
+
+   /*leftcont*/
+     .leftmain{
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    padding-right: 4rem;
+     }
+
+     .leftmain .lefthtxt{
+      font-size: 6rem;
+      /*color: #999999; */
+      color: white;
+      font-weight: 200;
+      letter-spacing: 15px;
+      /*text-transform: uppercase;*/
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: -10rem;
+      z-index: 1;
+      text-shadow: 2px 5px 5px black,-2px 5px 5px black;
+    }
+
+    .lefthtxt hr{
+      width: 45%;
+      height: 1rem;
+     border: none;
+      background-color: #e67300;
+      box-shadow: 2px 2px 5px black;
+    }
+
+    .lefthpic{
+      position: absolute;
+      top: -35%;
+      left: 43%;
+    }
+
+    .lefthpic img{
+      width: 103%;
+      filter: drop-shadow(40px 40px 80px black);
+      filter: brightness(50%);
+      filter: grayscale(100%);
+    }
+
+    .lefthnav ul{
+      display: flex;
+      list-style: none;
+      margin-top: 5rem;
+      justify-content: center;
+      /*text-align: left;*/
+      margin-left: -15rem;
+    }
+
+    .leftmlink{
+      width: 100%;
+    }
+
+    .leftmainul .leftmitem img{
+      width: 28px;
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+
+   /*end left cont*/
+   /*right cont*/
+   .rightmain{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+     padding-left: 5rem;
+   }
+
+   .rightmain .rightthead{
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    margin-top: 4rem;
+   }
+
+   .rightthead h1{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 3px;
+    color: silver;
+   }
+
+   .rightthead span{
+    color: #e67300;
+   }
+
+   .righttprop{
+    width: 50%;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+   font-weight: 800;
+    color: white;
+ font-family: 'M PLUS Rounded 1c', sans-serif;
+ line-height: 3.4rem;
+ letter-spacing: 1px;
+   /*font-family: 'Titillium Web', sans-serif;*/
+   }
+
+   .righttprop span{
+    color: #e67300;
+   }
+
+   .rightmain .righttpara{
+    width: 50%;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 2.3rem;
+   }
+ 
+   .righttpara p{
+    line-height: 2.2rem;
+    opacity: 0.7;
+    letter-spacing: 1px;
+     font-family: 'Plus Jakarta Sans', sans-serif;
+   }
+
+   .rightmain .rightabout{
+    margin-top: 2.5rem;
+    color: white ;
+
+   }
+  .rightabout hr{
+    width: 15%;
+    height: .1rem;
+   background-color:  #e67300;
+   border: none;
+   margin-left: 1.8rem;
+   margin-top: -0.5rem;
+   }
+
+   /*end right cont*/
+  /*end top main*/
+   /*bottom main*/
+   .botmain{
+   }
+   /*end bottom main*/
+
+  /*end main section*/
+
+  /*midmenu section*/
+  #midcont{
+  	width: 100%;
+  	position: relative;
+  }
+
+  .midcont{
+  	width: 100%;
+  	height: 35rem;
+  	/*padding: 1rem;*/
+    background-color: #14141f;
+  }
+
+  .midcontitems{
+  	height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mci{
+    width: 50%;
+  }
+
+  /*mid cont item 1*/
+
+  .midcontitems .mcontitem1{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+  }
+
+  .midcontitems .mcontitem1 .mconthead1 h1{
+   font-size: 1.3rem;
+    color: white;
+    font-weight: 200;
+     font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 1.5rem;
+  }
+
+  .mconthead1{
+    margin-left: -3.8rem;
+  }
+
+
+  .mconts1{
+    margin-top: 1.5rem;
+  }
+
+  .mcontitem1 .toplportskill img{
+   width: 30px;
+   margin-left: 1rem;
+   /*background-color: white;*/
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+
+  .mcontpara{
+    width: 30%;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+
+  .mcontpara p{
+    line-height: 2.2rem;
+    opacity: 0.7;
+    letter-spacing: 1px;
+     font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .mcontseeport{
+    color: white;
+    margin-top: 1.5rem;
+    margin-left: -4.5rem;
+    /*margin-left: 0;*/
+  }
+
+    .mcontseeport img{
+      margin-left: 3rem;
+    }
+
+     .mcontseeport hr{
+      width: 50%;
+     }
+
+     /*end mid cont item 1*/
+     
+     /*mid cont item 2 */
+
+     .mcontitem2{
+       display: flex;
+    padding: 1rem;
+     }
+
+     .mcontitem2 .mconthelphead h1{
+       font-size: 1.3rem;
+    color: white;
+    font-weight: 200;
+     font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+     }
+
+      .mcontitem2 .mconthelphead span,.mcontitem1 .mconthead1  span{
+        color: #e67300;
+        font-size: 2.5rem;
+      }
+
+      /*mcontitem left */
+        .mcontservcont{
+          display: flex;
+        }
+
+        .mcontservcont .lms{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: white;
+          margin-top: 1rem;
+          margin-left: -1rem;
+           font-family: 'Titillium Web', sans-serif;
+        }
+
+        .mcontservcont .lms hr{
+          width: 100%;
+          height: 1px;
+           border: none;
+           margin-top: 1rem;
+          background-color: #e67300;
+        }
+
+        .mcontservcont .lms h2{
+           letter-spacing: 2px;
+           text-transform: uppercase;
+        }
+
+         .mcontservcont .lms .lmex{
+             display: flex;
+             align-items: center;
+             margin-top: 3rem;
+              margin-left: 4rem;
+              cursor: pointer;
+         }
+
+         .mcontservcont .lms .lmex h4{
+            letter-spacing: 1px;
+            margin-right: 1rem;
+         }
+
+          .mcontservcont .lms .lmex img{
+            width: 20px;
+            margin-right: -6rem;
+           
+          }
+
+      /*end mcontitem left*/
+      /*mcontitem right*/
+      .mcontitemright{
+        width: 50%;
+        margin-left: 10rem;
+      }
+
+      .mcontitemright .rmcont2para{
+         width: 70%;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+      }
+
+      .rmcont2para p{
+         line-height: 2.2rem;
+    opacity: 0.7;
+    letter-spacing: 1px;
+     font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      /*end mcontitem right*/
+      /*end mid cont item 2*/
+  /*end midmenu section*/
+
+  /*footer section*/
+  #footer{
+    position: relative;
+  }
+
+  .footer{
+    background-color:  #14141f;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #1f1f2e;
+  }
+
+  .footerhead{
+    margin-top: -2rem;
+    color: white;  
+    text-align: center;  
+  }
+
+  .footerhead h2{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+  }
+
+  .footerhead p{
+    text-decoration: underline;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+     font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  /*end footer section*/

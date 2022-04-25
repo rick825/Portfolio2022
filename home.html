@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="mediahome.css">
+</head>
+<body>
+
+
+<!-- hero section -->
+<section id="hero">
+	<div class="hero">
+		<div class="backblack"></div>
+		<!-- nav section -->
+		<section id="nav">
+			<div class="nav bg">
+				<div class="ham">
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+					<div class="line line3"></div>
+				</div>
+				<div class="navlogo">
+					<h1>Th<span>e Sky</span></h1>
+					<hr>
+				</div>
+				<div class="navlist">
+					<ul class="navul">
+						<li class="navitem"><a href="" class="navlink active">Home</a></li>
+						<li class="navitem"><a href="#" class="navlink">About</a></li>
+						<li class="navitem"><a href="#" class="navlink">Portfolio</a></li>
+						<li class="navitem"><a href="#" class="navlink">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- end nav section -->
+		<!-- main section -->
+		<section id="main">
+			<div class="main bg">
+				<!-- top main -->
+				<div class="topmain maincont">
+				<div class="leftmain mainhead head topmaincont">
+					<div class="lefthtxt">
+						<h1><Span>Akas</Span>h</h1>
+						<hr>
+					</div>
+					<div class="lefthnav">
+						<ul class="leftmainul">
+							<li class="leftmitem"><a href="" class="leftmlink">
+								<img src="icons/github.png"/>
+							</a></li>
+							<li class="leftmitem"><a href="" class="leftmlink">
+								<img src="icons/insta.png"/>
+							</a></li>
+							<li class="leftmitem"><a href="" class="leftmlink">
+								<img src="icons/linkd.png"/>
+							</a></li>
+						</ul>
+					</div>
+					<div class="lefthpic">
+						<img src="images/rpic.png" alt="">
+					</div>
+				</div>
+				<div class="rightmain topmaincont">
+					<div class="rightthead">
+						<h1>-<span>A</span>bout</h1>
+					</div>
+					<div class="righttprop">
+						<p>Akash Kumar Das, <span>Web Developer</span> at Ranchi</p>
+					</div>
+					<div class="righttpara">
+						<p>Innovative,Visionary,Result-driven and Experienced Computer Programmer.
+                        Designing and Developing several Web based Applications.
+                        As a MERN Developer I can handle both front-end and Back-end.  </p>
+					</div>
+					<div class="rightabout seemoreabout">
+						<div class="moreabout morelinks">
+						<h2><span>M</span>ore about me!<span class="imgspan"><img src="icons/arrow.png" alt=""></span></h2>
+						</div>
+						<hr>
+
+					</div>
+				</div>
+				</div>
+				<!-- end top main -->
+				<!-- bottom main -->
+				<div class="botmain maincont">
+					
+				</div>
+				<!-- end bottom main -->
+			</div>
+		</section>
+		<!-- end main section -->
+		<!-- midmain section -->
+		<section id="midcont">
+			<div class="midcont">
+				<div class="midcontitems">
+					
+				<div class="mcontitem1 mci">
+					<div class="mconthead1 mcontskills">
+						<h1>-<span>S</span>pecialised Skills</h1>
+					</div>
+					<div class="mcont1 mconts1">
+						<div class="toplportskill">
+		  							<img src="icons/html5.png"/>
+		  							<img src="icons/css3.png"/>
+		  							<img src="icons/js.png"/>
+		  							<img src="icons/java.png"/>
+		  							<img src="icons/react.png"/>
+		  						</div>
+					</div>
+					<div class="mcontpara">
+						<p>I am Mastering these Skills over the last few years and am Confident about delivering the best out of it.</p>
+					</div>
+					<div class="mcontseeport morelinks">
+						<h2><span>S</span>ee Portfolio<span><img src="icons/arrow.png" alt=""></span></h2>
+						<hr>
+					</div>
+				</div>
+				<div class="mcontitem2 mci">
+					<div class="mcontitemleft mcont2">
+						<div class="mconthelphead lmcont2head">
+						<h1>-<span>S</span>ervices</h1>
+					</div>
+					<div class="mcontservcont lmcont2head">
+						<div class="lms1 lms">
+							<h2>Web UI/UX Design</h2>
+							<div class="lmex">
+							 <h4>Explore</h4>
+							 <img src="icons/arrow.png" alt="">
+							 </div>
+							<hr>
+						</div>
+						<div class="lms2 lms">
+							
+						</div>
+						<div class="lms3 lms">
+							
+						</div>
+					</div>
+					</div>	
+					<div class="mcontitemright mcont2">
+						<div class="mconthelphead rmcont2head">
+						<h1>-<span>W</span>hat do i Provide?</h1>
+					</div>
+					<div class="mconthelppara rmcont2para">
+						<p>I can Provide You Professional Modern Web Designs with responsive features that will Make your Website more Attractive! </p>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<!-- end midmain section -->
+
+		<section id="footer">
+		 	<div class="footer">
+		 		<div class="footerhead">
+		 			<h2>The Sky</h2>
+		 			<p>Copyright @2022 TheSky</p>
+		 		</div>
+		 	</div>
+		</section>
+
+	</div>
+</section>
+<!-- end hero section -->
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+const selector = '.navlink';
+const elems = Array.from( document.querySelectorAll( selector ) );
+const navigation = document.querySelector( '.navul' );
+
+function makeActive( evt ) {
+  const target = evt.target;
+  
+  if ( !target || !target.matches( selector ) ) {
+    return;
+  }
+  
+  elems.forEach( elem => elem.classList.remove( 'active' ) );
+    
+    evt.target.classList.add( 'active' );
+};
+
+navigation.addEventListener( 'mousedown', makeActive );
+
+} );
+</script>
+<script src="app.js"></script>
+
+</body>
+</html>

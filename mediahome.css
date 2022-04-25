@@ -1,0 +1,271 @@
+@media only screen and (max-width: 600px){
+  body{
+    background-color: #1f1f2e;
+  }
+
+  .ham{
+  	display: flex;
+  	flex-direction: column;
+  	position: fixed;
+    right: 5%;
+    top: 6.5%;
+    z-index: 11001;
+  }	
+
+  .ham .line{
+  	width: 30px;
+  	padding: 0.2rem;
+  	background-color: white;
+  	margin-top: 0.4rem;
+  }
+
+  .ham .line2{
+  	width: 25px;
+  }
+
+  .ham .line3{
+  	width: 20px;
+  }
+
+  .backblack{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 10;
+    transform: translateY(-200rem);
+    transition: 3.5s ease;
+    opacity: 0.8;
+
+  }
+
+  .backblackshow{
+    transition: 1.8s ease;
+    transform: translateY(0);
+  }
+
+  /*nav section*/
+  .nav{
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .navlogo h1{
+    margin-left: 0;
+  }
+
+  .navlist{
+    position: fixed;
+    top: 20%;
+    margin-top: 2rem;
+    padding: 1rem;
+    z-index: 1000;
+  }
+
+  .navlist .navul{
+   width: 100%;
+   height: 100%; 
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 2rem;
+   margin-right: 0;
+  }
+
+  .navlist .navitem{
+    margin-right: 0;
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+
+  .navitem{
+    transform: translateX(-100rem);
+    transition: 0.8s ease;
+  }
+
+  .navitem:nth-child(2){
+    transition-delay: 0.2s;
+  }
+
+  .navitem:nth-child(3){
+    transition-delay: 0.4s;
+  }
+
+  .navitem:nth-child(4){
+    transition-delay: 0.6s;
+  }
+
+  .navshow{
+    /*transition: 0.8s ease;*/
+    transform: translateX(0);
+  }
+
+  .navlogo{
+    margin-left: 0;
+  }
+
+  /*end nav section*/
+
+/*main section*/
+   .main{
+    height: 100%;
+    padding: 0;
+   }
+
+   .topmain{
+    flex-direction: column;
+   }
+
+   /*left cont*/
+   .leftmain{
+  width: 100%;
+  height: 30rem;
+  flex-direction: row;
+  padding-right: 8rem;
+  margin-top: -2rem;
+   }
+
+    .leftmain .lefthtxt{
+     font-size: 3.2rem; 
+     margin-top: -8rem;
+     margin-left: -4rem;
+     z-index: 2;
+    }
+
+      .lefthpic{
+        width: 100%;
+          top: -30%;
+          left: -36%;
+      }
+
+      .lefthpic img{
+        position: absolute;
+        width: 105%;
+      }
+
+      .lefthtxt hr{
+        width: 50%;
+        height: 0.8rem;
+      }
+
+     .lefthnav ul{
+      margin-top: 4rem;
+      margin-left: -27.5rem;
+       z-index: 5;
+     }
+
+     .leftmainul .leftmitem img{
+      width: 20px;
+     
+     }
+   /*end left cont*/
+   /*right cont*/
+   .rightmain{
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    background-color: #14141f;
+   }
+
+   .righttprop{
+    width: 85%;
+   }
+
+   .rightmain .righttpara{
+    width: 85%;
+   }
+
+   .moreabout .imgspan{
+    margin-left: -2rem;
+   }
+   /*end right cont*/
+   /*midmain section*/
+   .midcont{
+    margin-top: 0.1rem;
+    height: 100%;
+    padding-bottom: 2rem;
+   }
+
+   .midcontitems{
+    flex-direction: column;
+   }
+   .mci{
+    width: 100%;
+   }
+  /*mid cont item 1*/
+  .midcontitems .mcontitem1{
+   align-items: unset;
+   margin-left: 0;
+   padding-bottom: 1.5rem;
+  }
+
+  .mconthead1{
+    margin-left: 0;
+  }
+
+  .mcontseeport{
+    margin-top: 0;
+  }
+
+   .mcontpara{
+    width: 80%;
+    margin-left: 0;
+    margin-top: 1.5rem;
+   }
+
+   .mcontseeport{
+    margin-left: 0;
+    margin-top: 2.5rem;
+   }
+   
+   .mcontseeport span{
+    font-size: 1.5rem;
+   }
+
+   .mcontseeport hr{
+    width: 15%;
+   }
+  /*end mid cont item 1*/
+  /*mid cont item 2*/
+  .mcontitem2{
+    width: 100%;
+    /*align-items: center;*/
+    flex-direction: column;
+    border-top: 2px solid #1f1f2e;
+  }
+
+  .mcontservcont .lms{
+    margin-left: 2rem;
+  }
+
+  /*mcont item right*/
+  .mcontitemright{
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+
+ .mcontitem2 .mconthelphead span{
+  font-size: 2.5rem;
+ }
+
+ .mcontitem2 .rmcont2head span{
+  font-size: 1.5rem;
+ }
+  /*end mcont item right*/
+  /*end mid cont item 2*/
+  /*end midmain section*/
+  /*end main section*/
+
+  /*footer section*/
+  .footer{
+    height: 20rem;
+  }
+  /*end footer section*/
+
+}
