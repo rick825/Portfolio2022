@@ -137,15 +137,14 @@
      z-index: 2;
     }
 
-      .lefthpic{
-        width: 100%;
-          top: -30%;
-          left: -36%;
+       .lefthpic{
+          top: 0;
+          left: 0;
       }
 
       .lefthpic img{
         position: absolute;
-        width: 105%;
+        width: 25rem;
       }
 
       .lefthtxt hr{
